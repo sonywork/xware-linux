@@ -11,11 +11,9 @@
 # Description: Start/stop embed thunder manager
 ### END INIT INFO
 #
-# Author: Pengxuan Men <pengxuan.men@gmail.com>
-#
 
 USER=thunder
-XWAREPATH=/home/$USER/Xware
+XWAREPATH=/usr/local/xware
 RUN=$XWAREPATH/portal
 LOG=$XWAREPATH/message.log
 
